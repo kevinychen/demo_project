@@ -13,3 +13,12 @@
     <b>Reverse Complement</b>: {{reverse_complement}}
   </p>
 {% endif %}
+{% if amino_acids %}
+  <p>
+    <b>Amino Acid Sequence</b>: {{amino_acids}}
+  </p>
+{% endif %}
+{% if error %}
+  <p>Note: unrecognized base characters ignored.</p>
+{% endif %}
+
